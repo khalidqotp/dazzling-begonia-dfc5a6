@@ -10,9 +10,7 @@ export default defineConfig({
       projects: ['./tsconfig.json'],
     }),
     tailwindcss(),
-    tanstackStart({
-      deploymentTarget: 'vercel-serverless'
-    }),
+    tanstackStart(),
     viteReact(),
   ],
 })
